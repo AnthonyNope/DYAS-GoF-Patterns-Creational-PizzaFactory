@@ -65,9 +65,9 @@ public class PreparadorPizza {
 
         switch(TPizza){
             case 0:
-                return PDEL();
+                return new PDEL();
             case 1:
-                return PGRU();
+                return new PGRU();
             case 2:
                 return new PINTE();
             default:
